@@ -1,7 +1,7 @@
-import "./App.css";
+import LocalStorage from "./components/LocalStorageExample/LocalStorage";
 
 function App() {
-  return <p>Teste</p>;
+  return <LocalStorage />;
 }
 
 export default App;

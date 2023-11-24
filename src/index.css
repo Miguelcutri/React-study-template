@@ -28,6 +28,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 h1 {
@@ -65,4 +70,37 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.title-todo {
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-title {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.delete-btn:hover {
+  color: #ff0000;
+  border-color: #ff0000;
+}
+.edit-btn:hover {
+  color: #ffa500;
+  border-color: #ffa500;
+}
+
+.save-task:hover {
+  color: #38a169;
+  border-color: #38a169;
 }
