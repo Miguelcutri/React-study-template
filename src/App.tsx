@@ -1,4 +1,4 @@
-import LocalStorage from "./components/LocalStorageExample/LocalStorage";
+import LocalStorage from "./LocalStorageExample/LocalStorage";
 
 function App() {
   return <LocalStorage />;

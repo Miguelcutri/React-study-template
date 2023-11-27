@@ -61,15 +61,9 @@ const LocalStorage = () => {
           onKeyDown={handleKeyDown}
         />
         {saveButton ? (
-          <button onClick={() => handleSaveTask()} className="save-task">
-            Save
-          </button>
+          <button onClick={() => handleSaveTask()} className="save-task">Save</button>
         ) : (
-          <button
-            onClick={() => handleAddTask()}
-            type="submit"
-            className="save-task"
-          >
+          <button onClick={() => handleAddTask()} type="submit" className="save-task">
             Add Task
           </button>
         )}
